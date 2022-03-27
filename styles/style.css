@@ -44,7 +44,6 @@
 /* высота,ширина, отступ, позиция */
 .header__main-illustration {
   object-fit: cover;
-  object-position: right center;
   width: 765px;
   height: 608px;
   position: absolute;
@@ -127,15 +126,18 @@
 }
 
 .digits {
+  margin-bottom: 100px;
 }
 
 .section-title {
+  position: relative;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
   width: 60%;
   margin: 0 auto 20px;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -247,7 +249,6 @@
   padding-bottom: 40px;
   background-color: #1f1f1f;
   color: white;
-  flex-basis: 711px;
   min-height: 350px;
 }
 
