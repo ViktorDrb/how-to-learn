@@ -1,6 +1,5 @@
 .header__square-pic {
   transform: rotate(360deg);
-  animation: rotation 20s infinite linear;
   position: absolute;
   top: 64px;
   right: 0;
